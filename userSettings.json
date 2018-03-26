@@ -1,0 +1,46 @@
+{
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": true,
+  "editor.rulers": [ 121 ],
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "git.path": "/usr/bin/git",
+  "gitlens.advanced.git": "/usr/bin/git",
+  "gitlens.blame.ignoreWhitespace": true,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "jsDocCompletion.enabled": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/electron": true,
+    "**/target": true,
+    "**/i18n": true,
+    "**/.idea": true,
+    "**/dist": true
+  },
+  "standard.autoFixOnSave": true,
+  "standard.validate": ["javascript"],
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "yellow",
+      "border": "1px solid red",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,.2)",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "TODO",
+      "color": "yellow",
+      "border": "1px solid red",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,.2)",
+      "overviewRulerColor": "grey"
+    }
+  ],
+  "typescriptHero.imports.insertSemicolons": false,
+  "window.zoomLevel": 0,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false
+}
